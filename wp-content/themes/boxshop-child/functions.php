@@ -9,3 +9,9 @@ function boxshop_child_register_scripts(){
     );
 }
 add_action( 'wp_enqueue_scripts', 'boxshop_child_register_scripts' );
+function cw_change_product_price_display( $price ) {
+    $price .= ' POST & PACKAGE';
+    return $price;
+}
+add_filter( 'woocommerce_get_price_html', 'cw_change_product_price_display' );
+add_filter( 'woocommerce_cart_item_price', 'cw_change_product_price_display' );
