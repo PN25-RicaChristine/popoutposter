@@ -1,0 +1,54 @@
+2020-11-26T12:11:46+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://popoutposter.com/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://popoutposter.com/cart-2/
+    [CANCELURL] => https://popoutposter.com/cart-2/?cancel_order=true&order=wc_order_r6kjMx0UnUJgs&order_id=8438&redirect=https%3A%2F%2Fpopoutposter.com%2Fcart-2%2F&_wpnonce=f7991d45fe&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => popoutposter.com
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => Test 1 GBP
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 1
+    [L_PAYMENTREQUEST_0_QTY0] => 2
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://popoutposter.com/product/test-1-gbp/
+    [PAYMENTREQUEST_0_AMT] => 2
+    [PAYMENTREQUEST_0_CURRENCYCODE] => GBP
+    [PAYMENTREQUEST_0_ITEMAMT] => 2
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 4
+    [PAYMENTREQUEST_0_SHIPTONAME] =>   
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => 
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => GB
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => roordink@pm.me
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 8438
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+)
+
+2020-11-26T12:11:46+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-11-26T12:11:46Z
+    [CORRELATIONID] => 54b5fbdcff041
+    [ACK] => Failure
+    [BUILD] => 55100925
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+

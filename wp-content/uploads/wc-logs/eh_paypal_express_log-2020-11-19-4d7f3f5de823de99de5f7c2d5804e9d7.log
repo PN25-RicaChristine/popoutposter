@@ -1,0 +1,54 @@
+2020-11-19T22:17:08+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://popoutposter.com/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://popoutposter.com/cart-2/
+    [CANCELURL] => https://popoutposter.com/cart-2/?cancel_order=true&order=wc_order_IV2ppnKYyffZu&order_id=8383&redirect=https%3A%2F%2Fpopoutposter.com%2Fcart-2%2F&_wpnonce=245ce4b154&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => popoutposter.com
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => Arsenal FA Cup 2020
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 24.95
+    [L_PAYMENTREQUEST_0_QTY0] => 3
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://popoutposter.com/product/arsenal-fa-cup-winners-popout-poster/
+    [PAYMENTREQUEST_0_AMT] => 74.85
+    [PAYMENTREQUEST_0_CURRENCYCODE] => GBP
+    [PAYMENTREQUEST_0_ITEMAMT] => 74.85
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 131.85
+    [PAYMENTREQUEST_0_SHIPTONAME] =>   
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => sf
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => sfd
+    [PAYMENTREQUEST_0_SHIPTOCITY] => sf
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => sf
+    [PAYMENTREQUEST_0_SHIPTOZIP] => asdads
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => GB
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => roordink@pm.me
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 8383
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+)
+
+2020-11-19T22:17:08+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-11-19T22:17:08Z
+    [CORRELATIONID] => 60588809252dd
+    [ACK] => Failure
+    [BUILD] => 55078561
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+

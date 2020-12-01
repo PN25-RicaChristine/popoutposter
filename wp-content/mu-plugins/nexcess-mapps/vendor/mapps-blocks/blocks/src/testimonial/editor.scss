@@ -1,0 +1,6 @@
+.wp-block-lw-testimonial {
+	&::before,
+	&::after {
+		content: '"';
+	}
+}

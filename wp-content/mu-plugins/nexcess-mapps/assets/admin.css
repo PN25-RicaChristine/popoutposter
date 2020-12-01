@@ -1,0 +1,118 @@
+/**
+ * Custom styles for the Nexcess Managed Applications (MAPPS) admin pages.
+ *
+ * @author Nexcess
+ */
+
+@charset utf-8;
+
+.mapps-wrap .nexcess-page-title {
+	padding-top: 2em;
+	background-position: center 9px;
+	background-repeat: no-repeat;
+	background-size: auto 1.3em;
+}
+
+@media (min-width: 768px) {
+	.mapps-wrap .nexcess-page-title {
+		padding-top: 9px;
+		padding-right: 8em;
+		background-position: right 9px;
+	}
+}
+
+/* Responsive grid layout for the dashboard. */
+.mapps-layout-fluid,
+.mapps-layout-fluid-deferred {
+	padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+	.mapps-layout-fluid,
+	.mapps-layout-fluid-deferred {
+		display: grid;
+		column-gap: 24px;
+	}
+
+	.mapps-layout-fluid {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.mapps-layout-fluid-deferred {
+		grid-template-columns: 1fr;
+	}
+
+	.mapps-layout-fluid .mapps-sidebar {
+		align-self: start;
+		margin-top: 0;
+	}
+}
+
+@media (min-width: 1200px) {
+	.mapps-layout-fluid,
+	.mapps-layout-fluid-deferred {
+		grid-template-columns: 1fr 380px;
+	}
+
+	.mapps-layout-fluid-deferred .mapps-sidebar {
+		align-self: start;
+		margin-top: 0;
+	}
+}
+
+/* Hide the <h2> on the dashboard. */
+.mapps-wrap .tabbed-section-heading {
+	display: none;
+}
+
+/* Don't apply margin-top to the first inline dashboard notice. */
+.mapps-primary .notice.inline:first-child {
+	margin-top: 0;
+}
+
+/* Visual Comparison URLs. */
+#mapps-visual-comparison-urls td {
+	vertical-align: middle;
+}
+
+.mapps-visual-comparison-base {
+	display: none;
+	width: 10%;
+	vertical-align: middle;
+}
+
+.mapps-visual-comparison-base code {
+	white-space: nowrap;
+}
+
+.mapps-visual-comparison-input {
+	width: 50%;
+}
+
+.mapps-visual-comparison-actions {
+	width: 40px;
+}
+
+@media (min-width: 783px) {
+	.mapps-visual-comparison-base {
+		display: table-cell;
+	}
+}
+
+/* Add some additional spacing between sections. */
+.mapps-primary p + h3,
+.mapps-primary table + h3,
+.mapps-sidebar p + h3,
+#mapps-visual-comparison-urls {
+	margin-top: 2em;
+}
+
+/* Lists of links. */
+.mapps-link-list li {
+	margin-bottom: 10px;
+}
+
+/* Utility classes. */
+.mapps-w-auto {
+	width: auto;
+}

@@ -1,0 +1,1 @@
+/chroot/home/a84bbceb/popoutposter.com/html/wp-content/mu-plugins/nexcess-mapps/DropIns/fatal-error-handler.php

@@ -1,0 +1,6 @@
+.testimonial {
+	&::before,
+	&::after {
+		content: '"';
+	}
+}

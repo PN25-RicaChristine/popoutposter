@@ -1,0 +1,53 @@
+/**
+ * Custom styles for the Nexcess Managed Applications (MAPPS) admin bar.
+ *
+ * @author Nexcess
+ */
+
+@charset utf-8;
+
+/* Styling for the WP Admin Bar icon. */
+#wp-admin-bar-nexcess-mapps .ab-icon {
+	width: 20px;
+	height: 28px;
+	color: #a0a5aa;
+	color: rgba(240, 245, 250, 0.6);
+	transition: all .1s ease-in-out;
+}
+
+#wp-admin-bar-nexcess-mapps:hover .ab-icon,
+#wp-admin-bar-nexcess-mapps.hover .ab-icon {
+	color: inherit;
+}
+
+#wp-admin-bar-nexcess-mapps .ab-icon svg {
+	margin-top: 4px;
+}
+
+/* Make buttons look like any other menu links. */
+#wp-admin-bar-nexcess-mapps .button {
+	min-height: 0;
+	padding: 0;
+	line-height: 2;
+	vertical-align: text-bottom;
+	color: inherit;
+	background: none;
+	border: none;
+}
+
+#wp-admin-bar-nexcess-mapps .button:hover,
+#wp-admin-bar-nexcess-mapps .button:focus,
+#wp-admin-bar-nexcess-mapps .button:active {
+	color: #00b9eb;
+}
+
+/* Soften the colors for the environment type. */
+#wp-admin-bar-det_env_type.det-production {
+	background-color: rgba(185, 42, 42, 0.8) !important;
+}
+#wp-admin-bar-det_env_type.det-staging {
+	background-color: rgba(215, 157, 0, 0.8) !important;
+}
+#wp-admin-bar-det_env_type.det-development {
+	background-color: rgba(59, 152, 67, 0.8) !important;
+}

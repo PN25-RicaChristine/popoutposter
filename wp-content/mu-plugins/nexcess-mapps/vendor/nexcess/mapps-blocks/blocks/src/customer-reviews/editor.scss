@@ -1,0 +1,12 @@
+.customer-reviews-block-editor {
+  ul {
+    list-style:none !important;
+    padding:0 !important;
+  }
+  .block-editor-block-list__layout {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-gap: 2.5rem;
+    gap: 2.5rem;
+  }
+}

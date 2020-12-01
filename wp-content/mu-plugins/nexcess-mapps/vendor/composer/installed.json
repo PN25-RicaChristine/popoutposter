@@ -1,0 +1,546 @@
+{
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v1.9.0",
+            "version_normalized": "1.9.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "b93bcf0fa1fccb0b7d176b0967d969691cd74cca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/b93bcf0fa1fccb0b7d176b0967d969691cd74cca",
+                "reference": "b93bcf0fa1fccb0b7d176b0967d969691cd74cca",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.6.* || 2.0.*@dev",
+                "composer/semver": "1.0.* || 2.0.*@dev",
+                "phpunit/phpunit": "^4.8.36",
+                "sebastian/comparator": "^1.2.4",
+                "symfony/process": "^2.3"
+            },
+            "time": "2020-04-07T06:57:05+00:00",
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "MantisBT",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "sylius",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/v1.9.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "./installers"
+        },
+        {
+            "name": "cweagans/composer-patches",
+            "version": "1.7.0",
+            "version_normalized": "1.7.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cweagans/composer-patches.git",
+                "reference": "ae02121445ad75f4eaff800cc532b5e6233e2ddf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cweagans/composer-patches/zipball/ae02121445ad75f4eaff800cc532b5e6233e2ddf",
+                "reference": "ae02121445ad75f4eaff800cc532b5e6233e2ddf",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "composer/composer": "~1.0 || ~2.0",
+                "phpunit/phpunit": "~4.6"
+            },
+            "time": "2020-09-30T17:56:20+00:00",
+            "type": "composer-plugin",
+            "extra": {
+                "class": "cweagans\\Composer\\Patches"
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "cweagans\\Composer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Cameron Eagans",
+                    "email": "me@cweagans.net"
+                }
+            ],
+            "description": "Provides a way to patch Composer packages.",
+            "support": {
+                "issues": "https://github.com/cweagans/composer-patches/issues",
+                "source": "https://github.com/cweagans/composer-patches/tree/1.7.0"
+            },
+            "install-path": "../cweagans/composer-patches"
+        },
+        {
+            "name": "liquidweb/nexcess-mapps-dashboard",
+            "version": "v1.3.5",
+            "version_normalized": "1.3.5.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:liquidweb/nexcess-mapps-dashboard.git",
+                "reference": "0acdf2d33a00eddc379d0670cfad53465fd45cb9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liquidweb/nexcess-mapps-dashboard/zipball/0acdf2d33a00eddc379d0670cfad53465fd45cb9",
+                "reference": "0acdf2d33a00eddc379d0670cfad53465fd45cb9",
+                "shasum": ""
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                "php": "^7.1",
+                "phpcompatibility/phpcompatibility-wp": "^2.0",
+                "phpunit/phpunit": "^6.5",
+                "wp-coding-standards/wpcs": "^2.1"
+            },
+            "time": "2020-11-09T17:28:42+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "autoload-dev": {
+                "psr-4": {
+                    "Nexcess\\MAPPS\\Dashboard\\": "nexcess-mapps-dashboard/",
+                    "Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "build": [
+                    "git archive -o nexcess-mapps-dashboard.zip --format=zip --worktree-attributes HEAD"
+                ],
+                "test": [
+                    "phpunit --testdox"
+                ]
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Liquid Web",
+                    "email": "support@liquidweb.com"
+                }
+            ],
+            "description": "Allows Nexcess customers to self-install specific plugins.",
+            "support": {
+                "source": "https://github.com/liquidweb/nexcess-mapps-dashboard/tree/v1.3.5",
+                "issues": "https://github.com/liquidweb/nexcess-mapps-dashboard/issues"
+            },
+            "install-path": "../liquidweb/nexcess-mapps-dashboard"
+        },
+        {
+            "name": "liquidweb/woocommerce-upper-limits",
+            "version": "v1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:liquidweb/woocommerce-upper-limits.git",
+                "reference": "594dc658c309572a5968d5481b2ff974f0e1ba4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/liquidweb/woocommerce-upper-limits/zipball/594dc658c309572a5968d5481b2ff974f0e1ba4e",
+                "reference": "594dc658c309572a5968d5481b2ff974f0e1ba4e",
+                "shasum": ""
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5",
+                "phpcompatibility/php-compatibility": "^9.1",
+                "phpunit/phpunit": "^6.2.3",
+                "stevegrunwell/runkit7-installer": "^1.1",
+                "woocommerce/woocommerce": "dev-master",
+                "wp-coding-standards/wpcs": "^1.0.0"
+            },
+            "time": "2019-07-25T14:06:49+00:00",
+            "type": "wordpress-muplugin",
+            "extra": {
+                "installer-paths": {
+                    "vendor/{$vendor}/{$name}": [
+                        "woocommerce/woocommerce"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload-dev": {
+                "classmap": [
+                    "vendor/woocommerce/woocommerce/tests/framework"
+                ]
+            },
+            "scripts": {
+                "build": [
+                    "mkdir -p ./dist/woocommerce-upper-limits",
+                    "cp -r includes README.md woocommerce-upper-limits.php ./dist/woocommerce-upper-limits",
+                    "cd ./dist && zip -rmT woocommerce-upper-limits.zip woocommerce-upper-limits"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Liquid Web",
+                    "homepage": "https://www.liquidweb.com"
+                },
+                {
+                    "name": "Justin Sainton",
+                    "homepage": "https://zao.is"
+                },
+                {
+                    "name": "Steve Grunwell",
+                    "homepage": "https://stevegrunwell.com"
+                }
+            ],
+            "description": "Create upper limits for store owners, limiting either the amount of products they can create, or orders they can take in a given month.",
+            "support": {
+                "source": "https://github.com/liquidweb/woocommerce-upper-limits/tree/v1.0.3",
+                "issues": "https://github.com/liquidweb/woocommerce-upper-limits/issues"
+            },
+            "install-path": "../liquidweb/woocommerce-upper-limits"
+        },
+        {
+            "name": "stevegrunwell/wp-admin-tabbed-settings-pages",
+            "version": "v0.2.0",
+            "version_normalized": "0.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stevegrunwell/wp-admin-tabbed-settings-pages.git",
+                "reference": "d8fbcce4bde4fbee623c659166b42bce0a7d09d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stevegrunwell/wp-admin-tabbed-settings-pages/zipball/d8fbcce4bde4fbee623c659166b42bce0a7d09d8",
+                "reference": "d8fbcce4bde4fbee623c659166b42bce0a7d09d8",
+                "shasum": ""
+            },
+            "require-dev": {
+                "assertwell/wp-core-test-framework": "^0.1.1",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpunit/phpunit": "^7.5",
+                "wp-coding-standards/wpcs": "^2.3"
+            },
+            "time": "2020-08-27T17:20:05+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Grunwell",
+                    "email": "steve@stevegrunwell.com"
+                }
+            ],
+            "description": "A polyfill for Trac #51086, bringing tabbed settings pages into WP-Admin.",
+            "support": {
+                "issues": "https://github.com/stevegrunwell/wp-admin-tabbed-settings-pages/issues",
+                "source": "https://github.com/stevegrunwell/wp-admin-tabbed-settings-pages/tree/master"
+            },
+            "install-path": "../stevegrunwell/wp-admin-tabbed-settings-pages"
+        },
+        {
+            "name": "stevegrunwell/wp-cache-remember",
+            "version": "v1.1.1",
+            "version_normalized": "1.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stevegrunwell/wp-cache-remember.git",
+                "reference": "f37b8e79d9cb05f5fd0e8035b0ffecbb1ded182e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stevegrunwell/wp-cache-remember/zipball/f37b8e79d9cb05f5fd0e8035b0ffecbb1ded182e",
+                "reference": "f37b8e79d9cb05f5fd0e8035b0ffecbb1ded182e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "^1.0",
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.4.4",
+                "wimg/php-compatibility": "^8.1",
+                "wp-coding-standards/wpcs": "^0.14"
+            },
+            "time": "2018-06-14T05:10:34+00:00",
+            "type": "wordpress-muplugin",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "wp-cache-remember.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Grunwell",
+                    "email": "steve@stevegrunwell.com",
+                    "homepage": "https://stevegrunwell.com"
+                }
+            ],
+            "description": "Helper for the WordPress object cache and transients",
+            "keywords": [
+                "wordpress",
+                "wordpress-object-cache",
+                "wordpress-plugin",
+                "wordpress-transients"
+            ],
+            "support": {
+                "issues": "https://github.com/stevegrunwell/wp-cache-remember/issues",
+                "source": "https://github.com/stevegrunwell/wp-cache-remember"
+            },
+            "install-path": "../stevegrunwell/wp-cache-remember"
+        },
+        {
+            "name": "wp-cli/wp-config-transformer",
+            "version": "v1.2.8",
+            "version_normalized": "1.2.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-cli/wp-config-transformer.git",
+                "reference": "0bb2b9162c38ca72370380aea11dc06e431e13a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-cli/wp-config-transformer/zipball/0bb2b9162c38ca72370380aea11dc06e431e13a5",
+                "reference": "0bb2b9162c38ca72370380aea11dc06e431e13a5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.29"
+            },
+            "require-dev": {
+                "composer/composer": ">=1.5.6 <1.7.0 || ^1.7.1 || ^2.0.0",
+                "phpunit/phpunit": "^6.5.5 || ^7.0.0",
+                "wp-coding-standards/wpcs": "^0.14.0 || ^1.0.0 || ^2.0.0"
+            },
+            "time": "2020-11-12T08:08:10+00:00",
+            "type": "library",
+            "extra": {
+                "patches_applied": {
+                    "Namespacing and autoloading": "patches/wp-config-transformer-namespace.patch"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/WPConfigTransformer.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Frankie Jarrett",
+                    "email": "fjarrett@gmail.com"
+                }
+            ],
+            "description": "Programmatically edit a wp-config.php file.",
+            "support": {
+                "issues": "https://github.com/wp-cli/wp-config-transformer/issues",
+                "source": "https://github.com/wp-cli/wp-config-transformer/tree/v1.2.8"
+            },
+            "install-path": "../wp-cli/wp-config-transformer"
+        },
+        {
+            "name": "wpackagist-plugin/display-environment-type",
+            "version": "1.3",
+            "version_normalized": "1.3.0.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/display-environment-type/",
+                "reference": "tags/1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/display-environment-type.1.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "homepage": "https://wordpress.org/plugins/display-environment-type/",
+            "install-path": "../wpackagist-plugin/display-environment-type"
+        },
+        {
+            "name": "wpackagist-plugin/varnish-http-purge",
+            "version": "4.8.1",
+            "version_normalized": "4.8.1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/varnish-http-purge/",
+                "reference": "tags/4.8.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/varnish-http-purge.4.8.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "homepage": "https://wordpress.org/plugins/varnish-http-purge/",
+            "install-path": "../wpackagist-plugin/varnish-http-purge"
+        },
+        {
+            "name": "wpackagist-plugin/wp-fail2ban",
+            "version": "4.3.0.8",
+            "version_normalized": "4.3.0.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-fail2ban/",
+                "reference": "tags/4.3.0.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-fail2ban.4.3.0.8.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "patches_applied": {
+                    "PHPCompatibility exclusions": "patches/wp-fail2ban-php-compatibility.patch",
+                    "PHPCompatibility exclusions (Freemius)": "patches/wp-fail2ban-freemius-php-compatibility.patch",
+                    "Uninitialized string offset: 0": "patches/wp-fail2ban-uninitialized-string-offset.patch"
+                }
+            },
+            "installation-source": "dist",
+            "homepage": "https://wordpress.org/plugins/wp-fail2ban/",
+            "install-path": "../wpackagist-plugin/wp-fail2ban"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

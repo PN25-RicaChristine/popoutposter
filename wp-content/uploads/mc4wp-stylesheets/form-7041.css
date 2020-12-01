@@ -1,0 +1,25 @@
+/* form #7041 */
+.mc4wp-form-7041 label, 
+.mc4wp-form-7041 input, 
+.mc4wp-form-7041 textarea, 
+.mc4wp-form-7041 select, 
+.mc4wp-form-7041 button {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.mc4wp-form-7041 {
+	display: block;
+	background-repeat: repeat;
+}
+
+.mc4wp-form-7041 input[type='radio'],
+.mc4wp-form-7041 input[type='checkbox'] {
+	margin-right: 6px;
+	display: inline-block
+}
+
+.mc4wp-form-7041 .mc4wp-success p{
+	color: #ffffff;
+}
