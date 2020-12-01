@@ -10,7 +10,7 @@ function boxshop_child_register_scripts(){
 }
 add_action( 'wp_enqueue_scripts', 'boxshop_child_register_scripts' );
 function cw_change_product_price_display( $price ) {
-    $price .= ' <a href="https://popoutposter.com/shipping-rates/" target="_blank" style="color: #ffffff!important;text-decoration: underline;">Post & Package</a>';
+    $price .= ' <a href="https://popoutposter.com/shipping-rates/" target="_blank" style="color: #ffffff!important;text-decoration: underline;">P & P</a>';
     return $price;
 }
 add_filter( 'woocommerce_get_price_html', 'cw_change_product_price_display' );
