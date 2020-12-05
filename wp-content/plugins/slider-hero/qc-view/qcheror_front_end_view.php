@@ -274,6 +274,7 @@ function onYouTubeIframeAPIReady() {
             color: 'white',
 			autoplay: 1,
 			controls: 0,
+			playerVars: {'playsinline': 1},
 			rel: 0,
 			showinfo: 0,
 			<?php if(isset($params->videoslide_loop)&& $params->videoslide_loop=='1'){ ?>
