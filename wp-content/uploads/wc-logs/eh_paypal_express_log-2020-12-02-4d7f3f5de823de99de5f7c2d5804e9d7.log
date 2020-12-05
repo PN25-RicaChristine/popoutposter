@@ -1,0 +1,648 @@
+2020-12-02T13:16:56+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://popoutposter.com/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://popoutposter.com/cart-2/
+    [CANCELURL] => https://popoutposter.com/cart-2/?cancel_order=true&order=wc_order_PYQrLJxM84XxR&order_id=8484&redirect=https%3A%2F%2Fpopoutposter.com%2Fcart-2%2F&_wpnonce=b3969fd905&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => popoutposter.com
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => Test 1 GBP
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 1
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://popoutposter.com/product/test-1-gbp/
+    [PAYMENTREQUEST_0_AMT] => 21
+    [PAYMENTREQUEST_0_CURRENCYCODE] => GBP
+    [PAYMENTREQUEST_0_ITEMAMT] => 1
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 20
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 37
+    [PAYMENTREQUEST_0_SHIPTONAME] => John Roordink 
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Del Maestro 1416
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => 1849 Asuncion
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => PY-11
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 1849
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => PY
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 1111111
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => john.roordink@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 8484
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+)
+
+2020-12-02T13:16:56+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-12-02T13:16:56Z
+    [CORRELATIONID] => 85ce97a105acf
+    [ACK] => Failure
+    [BUILD] => 55100925
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+2020-12-02T13:16:59+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://popoutposter.com/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://popoutposter.com/cart-2/
+    [CANCELURL] => https://popoutposter.com/cart-2/?cancel_order=true&order=wc_order_S29WJxf0SqeaP&order_id=8485&redirect=https%3A%2F%2Fpopoutposter.com%2Fcart-2%2F&_wpnonce=b3969fd905&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => popoutposter.com
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => Test 1 GBP
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 1
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://popoutposter.com/product/test-1-gbp/
+    [PAYMENTREQUEST_0_AMT] => 21
+    [PAYMENTREQUEST_0_CURRENCYCODE] => GBP
+    [PAYMENTREQUEST_0_ITEMAMT] => 1
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 20
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 37
+    [PAYMENTREQUEST_0_SHIPTONAME] => John Roordink 
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Del Maestro 1416
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => 1849 Asuncion
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => PY-11
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 1849
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => PY
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 1111111
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => john.roordink@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 8485
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+)
+
+2020-12-02T13:16:59+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-12-02T13:16:59Z
+    [CORRELATIONID] => 7e27447ebc44b
+    [ACK] => Failure
+    [BUILD] => 55100925
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+2020-12-02T13:25:45+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://popoutposter.com/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://popoutposter.com/cart-2/
+    [CANCELURL] => https://popoutposter.com/cart-2/?cancel_order=true&order=wc_order_3sXwP5guieC6g&order_id=8486&redirect=https%3A%2F%2Fpopoutposter.com%2Fcart-2%2F&_wpnonce=b3969fd905&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => popoutposter.com
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => Test 1 GBP
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 1
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://popoutposter.com/product/test-1-gbp/
+    [PAYMENTREQUEST_0_AMT] => 21
+    [PAYMENTREQUEST_0_CURRENCYCODE] => GBP
+    [PAYMENTREQUEST_0_ITEMAMT] => 1
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 20
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 37
+    [PAYMENTREQUEST_0_SHIPTONAME] => John Roordink 
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Del Maestro 1416
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => 1849 Asuncion
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => PY-11
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 1849
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => PY
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 1111111
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => john.roordink@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 8486
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+)
+
+2020-12-02T13:25:45+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-12-02T13:25:45Z
+    [CORRELATIONID] => a9c7e6a21d702
+    [ACK] => Failure
+    [BUILD] => 55100925
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+2020-12-02T13:26:35+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://popoutposter.com/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://popoutposter.com/cart-2/
+    [CANCELURL] => https://popoutposter.com/cart-2/?cancel_order=true&order=wc_order_dJ2baMijSCp6O&order_id=8487&redirect=https%3A%2F%2Fpopoutposter.com%2Fcart-2%2F&_wpnonce=3017388619&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => popoutposter.com
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => Arsenal FA Cup 2020
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 24.95
+    [L_PAYMENTREQUEST_0_QTY0] => 2
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://popoutposter.com/product/arsenal-fa-cup-winners-popout-poster/
+    [PAYMENTREQUEST_0_AMT] => 54.9
+    [PAYMENTREQUEST_0_CURRENCYCODE] => GBP
+    [PAYMENTREQUEST_0_ITEMAMT] => 49.9
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 5
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 96.9
+    [PAYMENTREQUEST_0_SHIPTONAME] =>   
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => 
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => GB
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => 
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 8487
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+)
+
+2020-12-02T13:26:35+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-12-02T13:26:35Z
+    [CORRELATIONID] => cda247a63237
+    [ACK] => Failure
+    [BUILD] => 55100925
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+2020-12-02T13:26:54+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://popoutposter.com/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://popoutposter.com/cart-2/
+    [CANCELURL] => https://popoutposter.com/cart-2/?cancel_order=true&order=wc_order_k4OHrtSHFaqxU&order_id=8488&redirect=https%3A%2F%2Fpopoutposter.com%2Fcart-2%2F&_wpnonce=b3969fd905&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => popoutposter.com
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => Test 1 GBP
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 1
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://popoutposter.com/product/test-1-gbp/
+    [PAYMENTREQUEST_0_AMT] => 21
+    [PAYMENTREQUEST_0_CURRENCYCODE] => GBP
+    [PAYMENTREQUEST_0_ITEMAMT] => 1
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 20
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 37
+    [PAYMENTREQUEST_0_SHIPTONAME] => John Roordink 
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Del Maestro 1416
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => 1849 Asuncion
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => PY-11
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 1849
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => PY
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 1111111
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => john.roordink@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 8488
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+)
+
+2020-12-02T13:26:54+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-12-02T13:26:54Z
+    [CORRELATIONID] => 9f3bec5d43ae8
+    [ACK] => Failure
+    [BUILD] => 55100925
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+2020-12-02T14:42:55+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://popoutposter.com/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://popoutposter.com/cart-2/
+    [CANCELURL] => https://popoutposter.com/cart-2/?cancel_order=true&order=wc_order_OGUry3SbjfYWr&order_id=8498&redirect=https%3A%2F%2Fpopoutposter.com%2Fcart-2%2F&_wpnonce=b3969fd905&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => popoutposter.com
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => Test 1 GBP
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 1
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://popoutposter.com/product/test-1-gbp/
+    [PAYMENTREQUEST_0_AMT] => 21
+    [PAYMENTREQUEST_0_CURRENCYCODE] => GBP
+    [PAYMENTREQUEST_0_ITEMAMT] => 1
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 20
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 37
+    [PAYMENTREQUEST_0_SHIPTONAME] => John Roordink 
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Del Maestro 1416
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => 1849 Asuncion
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => PY-11
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 1849
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => PY
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 1111111
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => john.roordink@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 8498
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+)
+
+2020-12-02T14:42:56+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-12-02T14:42:56Z
+    [CORRELATIONID] => 50efff41d1aba
+    [ACK] => Failure
+    [BUILD] => 55100925
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+2020-12-02T14:43:06+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://popoutposter.com/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://popoutposter.com/cart-2/
+    [CANCELURL] => https://popoutposter.com/cart-2/?cancel_order=true&order=wc_order_e0Rq1GSLdR7Qp&order_id=8499&redirect=https%3A%2F%2Fpopoutposter.com%2Fcart-2%2F&_wpnonce=b3969fd905&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => popoutposter.com
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => Test 1 GBP
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 1
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://popoutposter.com/product/test-1-gbp/
+    [PAYMENTREQUEST_0_AMT] => 21
+    [PAYMENTREQUEST_0_CURRENCYCODE] => GBP
+    [PAYMENTREQUEST_0_ITEMAMT] => 1
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 20
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 37
+    [PAYMENTREQUEST_0_SHIPTONAME] => John Roordink 
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Del Maestro 1416
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => 1849 Asuncion
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => PY-11
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 1849
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => PY
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 1111111
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => john.roordink@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 8499
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+)
+
+2020-12-02T14:43:06+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-12-02T14:43:06Z
+    [CORRELATIONID] => a9843d67def80
+    [ACK] => Failure
+    [BUILD] => 55100925
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+2020-12-02T14:46:02+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://popoutposter.com/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://popoutposter.com/cart-2/
+    [CANCELURL] => https://popoutposter.com/cart-2/?cancel_order=true&order=wc_order_P9xC3FuVrLurS&order_id=8501&redirect=https%3A%2F%2Fpopoutposter.com%2Fcart-2%2F&_wpnonce=3017388619&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => popoutposter.com
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => Arsenal FA Cup 2020
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 24.95
+    [L_PAYMENTREQUEST_0_QTY0] => 2
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://popoutposter.com/product/arsenal-fa-cup-winners-popout-poster/
+    [PAYMENTREQUEST_0_AMT] => 54.9
+    [PAYMENTREQUEST_0_CURRENCYCODE] => GBP
+    [PAYMENTREQUEST_0_ITEMAMT] => 49.9
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 5
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 96.9
+    [PAYMENTREQUEST_0_SHIPTONAME] =>   
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => 
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => GB
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => 
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 8501
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+)
+
+2020-12-02T14:46:03+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-12-02T14:46:03Z
+    [CORRELATIONID] => 5f4a8657a7578
+    [ACK] => Failure
+    [BUILD] => 55100925
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+2020-12-02T14:46:46+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://popoutposter.com/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://popoutposter.com/cart-2/
+    [CANCELURL] => https://popoutposter.com/cart-2/?cancel_order=true&order=wc_order_BP0caqznnzUIQ&order_id=8502&redirect=https%3A%2F%2Fpopoutposter.com%2Fcart-2%2F&_wpnonce=3017388619&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => popoutposter.com
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => Arsenal FA Cup 2020
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 24.95
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://popoutposter.com/product/arsenal-fa-cup-winners-popout-poster/
+    [PAYMENTREQUEST_0_AMT] => 29.95
+    [PAYMENTREQUEST_0_CURRENCYCODE] => GBP
+    [PAYMENTREQUEST_0_ITEMAMT] => 24.95
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 5
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 52.95
+    [PAYMENTREQUEST_0_SHIPTONAME] =>   
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => 
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => GB
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => 
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 8502
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+)
+
+2020-12-02T14:46:47+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-12-02T14:46:47Z
+    [CORRELATIONID] => bb064bb40eed7
+    [ACK] => Failure
+    [BUILD] => 55100925
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+2020-12-02T14:51:04+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://popoutposter.com/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://popoutposter.com/cart-2/
+    [CANCELURL] => https://popoutposter.com/cart-2/?cancel_order=true&order=wc_order_Ox253S4q7smqI&order_id=8503&redirect=https%3A%2F%2Fpopoutposter.com%2Fcart-2%2F&_wpnonce=e0388e1a47&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => popoutposter.com
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => Arsenal FA Cup 2020
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 24.95
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://popoutposter.com/product/arsenal-fa-cup-winners-popout-poster/
+    [PAYMENTREQUEST_0_AMT] => 29.95
+    [PAYMENTREQUEST_0_CURRENCYCODE] => GBP
+    [PAYMENTREQUEST_0_ITEMAMT] => 24.95
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 5
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 52.95
+    [PAYMENTREQUEST_0_SHIPTONAME] =>   
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => 
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => GB
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => 
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 8503
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+)
+
+2020-12-02T14:51:04+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-12-02T14:51:04Z
+    [CORRELATIONID] => e75e3a12b550
+    [ACK] => Failure
+    [BUILD] => 55100925
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+2020-12-02T14:53:36+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://popoutposter.com/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://popoutposter.com/cart-2/
+    [CANCELURL] => https://popoutposter.com/cart-2/?cancel_order=true&order=wc_order_eMxqVr8Z230oS&order_id=8504&redirect=https%3A%2F%2Fpopoutposter.com%2Fcart-2%2F&_wpnonce=63fded9f1f&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => popoutposter.com
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => Arsenal FA Cup 2020
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 24.95
+    [L_PAYMENTREQUEST_0_QTY0] => 2
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://popoutposter.com/product/arsenal-fa-cup-winners-popout-poster/
+    [PAYMENTREQUEST_0_AMT] => 69.9
+    [PAYMENTREQUEST_0_CURRENCYCODE] => GBP
+    [PAYMENTREQUEST_0_ITEMAMT] => 49.9
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 20
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 122.9
+    [PAYMENTREQUEST_0_SHIPTONAME] => Kennette Canales 
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => Flor Esgana Bldg, 2nd Floor, St. Niño II, Casili, Consolacion, Cebu
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => Nainday, Placer, Masbate
+    [PAYMENTREQUEST_0_SHIPTOCITY] => Consolacion City
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => CEB
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 6001
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => PH
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => +639171837855
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => kennettecanales@gmail.com
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 8504
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+)
+
+2020-12-02T14:53:36+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-12-02T14:53:36Z
+    [CORRELATIONID] => b862a73d422da
+    [ACK] => Failure
+    [BUILD] => 55100925
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+2020-12-02T14:53:54+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Setting Express Checkout ) ------------------->
+stdClass Object
+(
+    [METHOD] => SetExpressCheckout
+    [RETURNURL] => https://popoutposter.com/wc-api/Eh_PayPal_Express_Payment/?c=express_details&p=https://popoutposter.com/cart-2/
+    [CANCELURL] => https://popoutposter.com/cart-2/?cancel_order=true&order=wc_order_PAG4K1w5k8yBk&order_id=8505&redirect=https%3A%2F%2Fpopoutposter.com%2Fcart-2%2F&_wpnonce=e0388e1a47&cancel_express_checkout=cancel
+    [ADDROVERRIDE] => 
+    [BRANDNAME] => popoutposter.com
+    [HDRIMG] => 
+    [LOGOIMG] => 
+    [SOLUTIONTYPE] => Sole
+    [CUSTOMERSERVICENUMBER] => 
+    [LOCALECODE] => en_US
+    [LANDINGPAGE] => Billing
+    [L_PAYMENTREQUEST_0_NAME0] => Arsenal FA Cup 2020
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_AMT0] => 24.95
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_ITEMURL0] => https://popoutposter.com/product/arsenal-fa-cup-winners-popout-poster/
+    [PAYMENTREQUEST_0_AMT] => 29.95
+    [PAYMENTREQUEST_0_CURRENCYCODE] => GBP
+    [PAYMENTREQUEST_0_ITEMAMT] => 24.95
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 5
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [PAYMENTREQUEST_0_PAYMENTACTION] => Sale
+    [MAXAMT] => 52.95
+    [PAYMENTREQUEST_0_SHIPTONAME] =>   
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => 
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => GB
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 
+    [PAYMENTREQUEST_0_NOTETEXT] => 
+    [PAYMENTREQUEST_0_EMAIL] => 
+    [PAYMENTREQUEST_0_PAYMENTREQUESTID] => 8505
+    [PAYMENTREQUEST_0_NOTIFYURL] => 
+)
+
+2020-12-02T14:53:54+00:00 DEBUG <------------------- WebToffee PayPal Express Payment ( Response on Express Start/Credit Start ) ------------------->
+stdClass Object
+(
+    [TIMESTAMP] => 2020-12-02T14:53:54Z
+    [CORRELATIONID] => 72fb08b9857d9
+    [ACK] => Failure
+    [BUILD] => 55100925
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
